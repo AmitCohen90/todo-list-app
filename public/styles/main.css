@@ -1,0 +1,99 @@
+.bigContainer {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #D3DBDF;
+}
+
+#heroeSection{
+    background-color: #F2E8E4;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'EB Garamond', serif;
+}
+
+
+
+.container-1{
+    width: 100%;
+}
+
+#submitForm {
+    width: 80%;
+    background-color: #D3DBDF;
+    gap: 20px;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 56%;
+    height: auto;
+    background-color: #D3DBDF;
+    border-radius: 5%;
+    margin-bottom: 15px;
+}
+
+.listItem{
+    display: flex;
+    align-items: center;
+    min-height: 150px;
+    background-color: #D194F5;
+    width: 100%;
+    gap: 10px;
+    border-radius: 5%;
+}
+
+.listItem > p{
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5rem;
+}
+
+.buttonsContainer{
+    background-color: #D194F5;
+    gap: 10px;    
+}
+
+@media (min-width: 768px){
+    .buttonsContainer{
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .listItem {
+        flex-direction: column;
+    }
+    .buttonsContainer{
+        margin-top: auto;
+        padding-bottom: 10px;
+    }
+}
+
+.editButton{
+    max-height: 40px;
+    background-color: #967BF5;
+    border: none;
+}
+
+.deleteButton{
+    max-height: 40px;
+    background-color: #F565BB;
+    border: none;
+}
+
+.container-3{
+    width: 100%;
+    background-color: #F2E8E4; 
+    margin-top: auto;
+}
+
+#textForm{
+    width: 100%;
+}

@@ -42,11 +42,15 @@ Make sure you have the following software installed on your machine:
 
 Running the Server
 Once you have installed the dependencies, you can start the server using the following command:
+
 npm start
 
 Visit http://localhost:3000 in your browser to access the Todo List App.
 
-Project Structure
+## Project Structure
+
 index.js: The main server file.
+
 views/: Contains EJS templates for rendering HTML pages.
+
 public/: Contains static assets such as CSS files.

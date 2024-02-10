@@ -34,13 +34,13 @@ Make sure you have the following software installed on your machine:
    git clone https://github.com/AmitCohen90/todo-list-app.git
 
 
-2. Navigate to the project directory:
+2. #### Navigate to the project directory:
    cd todo-list-app
 
-3. Install the dependencies using npm:
+3. #### Install the dependencies using npm:
    npm install
 
-Running the Server
+### Running the Server
 Once you have installed the dependencies, you can start the server using the following command:
 
 npm start
